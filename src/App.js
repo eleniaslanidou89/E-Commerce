@@ -1,13 +1,15 @@
 import React from 'react'
-import Products from './components/Products/Products'
+
+import { Products, Navbar } from './components'
 
 const App = () => {
-    return (
-        <div>
-            E-commerce
-            <Products></Products>
-        </div>
-    )
+  return (
+    <div>
+      E-commerce
+      <Navbar />
+      <Products />
+    </div>
+  )
 }
 
 export default App
