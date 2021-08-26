@@ -30,7 +30,7 @@ const App = () => {
   return (
     <div>
       E-commerce
-      <Navbar />
+      <Navbar totalItems={cart.total_items} />
       <Products products={products} onAddToCart={handleAddToCart} />
     </div>
   )
